@@ -15,5 +15,10 @@ public class main {
         // Imprimir los valores del árbol en preorden
         System.out.println("Recorrido en Preorden del árbol:");
         _arbol.dispararPreOrden();
+        
+        //Eliminar valores en el arbol
+        _arbol.eliminar(18);
+        System.out.println("Recorrido en Preorden del árbol:");
+        _arbol.dispararPreOrden();
     }
 }
